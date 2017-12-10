@@ -1,0 +1,20 @@
+- name: Microsoft
+  logo: img/tecnologies/net.png
+
+- name: Rails
+  logo: img/tecnologies/rails.png
+
+- name: google
+  logo: img/tecnologies/googleapps.png
+
+- name: Git
+  logo: img/tecnologies/git.png
+
+- name: Android
+  logo: img/tecnologies/android.png
+
+- name: Js
+  logo: img/tecnologies/js.png
+
+- name: Node
+  logo: img/tecnologies/node.png

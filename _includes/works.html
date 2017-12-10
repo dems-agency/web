@@ -1,0 +1,52 @@
+<section id="portfolio">
+	<div class="row">
+		<div class="page-title text-center container">
+			<h1>Nuestros trabajos</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+				<br />incididunt ut labore et dolore magna aliqua.
+			</p>
+			<hr class="pg-titl-bdr-btm"></hr>
+		</div>
+
+		<div class="items">
+			<!-- portfolio-wrapper -->
+			<div id="portfolio-wrapper">
+				{% for work in site.data.works %}
+				<div class="bgrid folio-item col-md-4">
+					<div class="item-wrap">
+						<a href="#{{work.modal}}">
+	                  <img src="{{work.image}}"  class="img-responsive image-work" alt="Underwater">
+                     <div class="overlay"></div>                       
+                     <div class="portfolio-item-meta">
+     					      <h5>{{work.name}}</h5>
+                        <p>{{work.category}}</p>
+     					   </div> 
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+					</div>
+				</div>
+				{%endfor%}
+			</div>
+
+			{% for work_desc in site.data.works %}
+			<div id="{{work_desc.modal}}" class="popup-modal mfp-hide">
+
+				<div class="media">
+					<img src="{{work_desc.image}}" alt="Underwater" />
+				</div>
+
+				<div class="description-box">
+					<h4>{{work_desc.name}}</h4>
+					<p>{{work_desc.description}}</p>
+					<span class="categories">{{work_desc.category}}</span>
+				</div>
+
+				<div class="link-box group">
+					<a href="#">Details</a>
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+
+			</div>
+			{%endfor%}
+		</div>
+</section>

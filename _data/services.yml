@@ -1,0 +1,70 @@
+- name: Diseño gráfico
+  image: img/services/graphical.jpg
+  href: /services/design/
+  cover: img/services/cover.jpg
+  position: left
+  tags: 
+    - tec: Photoshop
+    - tec: Illustrador
+    - tec: Camtasia
+  description: |
+    Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus
+    libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida 
+    id, est.Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus 
+    libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida 
+    id, est.
+
+- name: Desarrollo de páginas web
+  image: img/services/web.jpg
+  href: /services/web/
+  cover: img/services/cover.jpg
+  position: right  
+  tags: 
+    - tec: Ruby on Rails
+    - tec: Node js
+    - tec: WordPress
+    - tec: Laravel
+    - tec: Jekyll
+    - tec: React    
+  description: |
+    Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus 
+    libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida 
+    id, est.Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus 
+    libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida 
+    id, est.
+
+- name: Desarrollo de Apps móviles
+  image: img/services/mobile.jpg
+  href: /services/mobile/
+  cover: img/services/cover.jpg
+  position: left
+  tags: 
+    - tec: Java
+    - tec: React Native
+    - tec: Kotlin
+    - tec: Xamarin
+  description: |
+    Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus 
+    libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida 
+    id, est.Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus 
+    libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida 
+    id, est.
+
+- name: Marketing digital
+  image: img/services/media.jpg
+  href: /services/marketing/
+  cover: img/services/cover.jpg
+  position: right
+  tags: 
+    - tec: Facebook
+    - tec: Twitter
+    - tec: Instagram
+    - tec: Linkedin
+  description: |
+    Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus 
+    libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida
+    id, est.Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus 
+    libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida 
+    id, est.
+
+
