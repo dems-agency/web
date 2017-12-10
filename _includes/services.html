@@ -1,0 +1,23 @@
+<section id="services">
+	<div class="page-title text-center container">
+		<h1>Servicios que tenemos para tí</h1>
+		<p class="wow zoomIn">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+			<br />incididunt ut labore et dolore magna aliqua.
+		</p>
+		<hr class="pg-titl-bdr-btm"></hr>
+	</div>
+	<section id="one" class="wrapper style1">
+		<div class="container">
+			{% for service in site.data.services %}
+			<article class="feature {{ service.position }}">
+				<span class="image wow fadeInUp"><img class="img-responsive" src="{{ site.url }}/{{ service.image }}" alt="" /></span>
+				<div class="content">
+					<h2>{{ service.name }}</h2>
+					<p>{{ service.description | truncatewords: 20 }}</p>
+					<a class="button stroke" href="{{ site.baseurl }}{{ service.href }}">Ver detalles</a>
+				</div>
+			</article>
+			{% endfor %}
+		</div>
+	</section>
+</section>

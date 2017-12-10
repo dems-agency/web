@@ -1,0 +1,17 @@
+- name: Gema Mejía
+  title: Co-Founder & CMO
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: assets/img/team/avatar.png
+
+- name: Francisco González
+  title: Co-Founder & CMO 
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: assets/img/team/avatar.png
+
+- name: Osmar Calderóm
+  title: Co-Founder & CTO
+  greeting: Hola a todos!
+  about: voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+  photo: assets/img/team/avatar.png

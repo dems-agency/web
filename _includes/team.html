@@ -1,0 +1,36 @@
+	<div id="team" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="page-title text-center">
+					<h1>Conoce nuestro equipo</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						<br>incididunt ut labore et dolore magna aliqua. </p>
+					<hr class="pg-titl-bdr-btm"></hr>
+				</div>
+				  {% for member in site.data.members %}
+				<div  class="col-md-3 col-sm-3">
+					<div class="team-member  img-zoom">
+						<div class="team-img">
+							<img src="{{ site.baseurl}}/{{member.photo}}" alt="team member" class="img-responsive  wow flipInX">
+						</div>
+						<div class="team-hover">
+							<div class="desk">
+								<h4>{{member.greeting}}</h4>
+								<p>{{member.about}}.</p>
+							</div>
+							<div class="s-link">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+								<a href="#"><i class="fa fa-google-plus"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="team-title">
+						<h5>{{ member.name}}</h5>
+						<span>{{ member.title}}</span>
+					</div>
+				</div>
+				{%endfor%}
+			</div>
+		</div>
+	</div>
